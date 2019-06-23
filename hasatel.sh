@@ -47,6 +47,7 @@ sleep 7
 echo $blue"menggeser satelit!!"
 sleep 8
 echo $green"Anda berhasil menggeser satelit :)"
+sleep 3
 sh hasatel.sh
 fi
 
@@ -66,6 +67,7 @@ sleep 7
 echo $blue"menggeser satelit!!"
 sleep 8
 echo $green"Anda berhasil menggeser satelit :)"
+sleep 3
 sh hasatel.sh
 fi
 
@@ -85,6 +87,7 @@ sleep 7
 echo $blue"menggeser satelit!!"
 sleep 8
 echo $green"Anda berhasil menggeser satelit :)"
+sleep 3
 sh hasatel.sh
 fi
 
