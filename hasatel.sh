@@ -28,8 +28,9 @@ sleep 1
 echo $yellow"1." $red"Satelit nasa"
 echo $yellow"2." $red"Satelit palapa"
 echo $yellow"3." $red"Satelit bapak mu"
+echo $yellow"4." $red"EXIT"
 
-read -p "[PiliH]" sat
+read -p "[PiliH] " sat
 
 if [ $sat = "1" ] || [ $sat = "satelit nasa" ]
 then
