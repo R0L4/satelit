@@ -47,7 +47,9 @@ sleep 7
 echo $blue"menggeser satelit!!"
 sleep 8
 echo $green"Anda berhasil menggeser satelit :)"
+sh hasatel.sh
 fi
+
 
 if [ $sat = "2" ] || [ $sat = "satelit palapa" ]
 then
@@ -64,7 +66,9 @@ sleep 7
 echo $blue"menggeser satelit!!"
 sleep 8
 echo $green"Anda berhasil menggeser satelit :)"
+sh hasatel.sh
 fi
+
 
 if [ $sat = "3" ] || [ $sat = "satelit bapak mu" ]
 then
@@ -81,7 +85,9 @@ sleep 7
 echo $blue"menggeser satelit!!"
 sleep 8
 echo $green"Anda berhasil menggeser satelit :)"
+sh hasatel.sh
 fi
+
 
 if [ $sat = "4" ] || [ $sat = "exit" ]
 then
