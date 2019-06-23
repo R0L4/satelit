@@ -83,7 +83,7 @@ sleep 8
 echo $green"Anda berhasil menggeser satelit :)"
 fi
 
-if [ $apaan = "4" ] || [ $apaan = "exit" ]
+if [ $sat = "4" ] || [ $sat = "exit" ]
 then
 clear
 toilet -f standard Thankyou
