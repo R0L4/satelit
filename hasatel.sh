@@ -82,3 +82,12 @@ echo $blue"menggeser satelit!!"
 sleep 8
 echo $green"Anda berhasil menggeser satelit :)"
 fi
+
+if [ $apaan = "EXIT" ] || [ $apaan = "exit" ]
+then
+clear
+toilet -f standard Thankyou
+echo
+echo $green"Exit Program"
+exit
+fi
